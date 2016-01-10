@@ -1,6 +1,6 @@
 var fs = require('fs');
 var array = fs.readFileSync('../spamlist.txt').toString().split("\r\n");
-var concatenated = '';
+var concatenated = '# Output generated ' + new Date().toUTCString() + '\r\n';
 for(i in array) {
     concatenated += array[i].replace('\.', '\\.');
     console.log('Loading : ' + array[i]);
