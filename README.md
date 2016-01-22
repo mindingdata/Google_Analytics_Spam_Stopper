@@ -6,7 +6,7 @@ After editing `spamlist.txt` you should run
 ```
 cat spamlist.txt | uniq > spamlist.txt
 ```
-to hava unique rows.
+to have unique rows.
 
 To run, from a command line go to the Node folder in the project,
 ```
